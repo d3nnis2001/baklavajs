@@ -688,7 +688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@baklavajs/core@^2.4.4, @baklavajs/core@workspace:packages/core":
+"@baklavajs/core@^2.4.4, @baklavajs/core@workspace:^, @baklavajs/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@baklavajs/core@workspace:packages/core"
   dependencies:
@@ -744,7 +744,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@baklavajs/renderer-vue@^2.4.5, @baklavajs/renderer-vue@workspace:packages/renderer-vue":
+"@baklavajs/renderer-vue@^2.4.5, @baklavajs/renderer-vue@workspace:^, @baklavajs/renderer-vue@workspace:packages/renderer-vue":
   version: 0.0.0-use.local
   resolution: "@baklavajs/renderer-vue@workspace:packages/renderer-vue"
   dependencies:
@@ -3495,6 +3495,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "baklavajs-monorepo@workspace:."
   dependencies:
+    "@baklavajs/core": "workspace:^"
+    "@baklavajs/renderer-vue": "workspace:^"
     "@eslint/js": ^9.0.0
     eslint: ^9.0.0
     eslint-config-prettier: ^9.1.0

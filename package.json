@@ -31,5 +31,9 @@
         "vitepress": "^1.1.0",
         "vue-eslint-parser": "^9.4.2"
     },
-    "packageManager": "yarn@3.5.1"
+    "packageManager": "yarn@3.5.1",
+    "dependencies": {
+        "@baklavajs/core": "workspace:^",
+        "@baklavajs/renderer-vue": "workspace:^"
+    }
 }

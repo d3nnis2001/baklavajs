@@ -22,7 +22,6 @@ import {
     PASTE_COMMAND,
     UNDO_COMMAND,
     REDO_COMMAND,
-    CREATE_SUBGRAPH_COMMAND,
     SAVE_SUBGRAPH_COMMAND,
     START_SELECTION_BOX_COMMAND,
     DELETE_NODES_COMMAND,
@@ -45,7 +44,6 @@ export default defineComponent({
             { command: UNDO_COMMAND, title: "Undo", icon: Icons.ArrowBackUp },
             { command: REDO_COMMAND, title: "Redo", icon: Icons.ArrowForwardUp },
             { command: START_SELECTION_BOX_COMMAND, title: "Box Select", icon: Icons.SelectAll },
-            { command: CREATE_SUBGRAPH_COMMAND, title: "Create Subgraph", icon: Icons.Hierarchy2 },
         ];
 
         const subgraphCommands = [
